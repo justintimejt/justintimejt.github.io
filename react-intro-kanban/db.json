@@ -1,0 +1,59 @@
+{
+  "tasks": [
+    {
+      "id": "30 MINS",
+      "title": "Machine Learning",
+      "status": "todo",
+      "priority": "high",
+      "points": 1
+    },
+    {
+      "id": "20 MINS",
+      "title": "Sentiment analysis",
+      "status": "in-progress",
+      "priority": 5
+    },
+    {
+      "id": "90 MINS",
+      "title": "Develop Skills",
+      "status": "done",
+      "priority": "high",
+      "points": 1
+    },
+    {
+      "id": "10 MINS",
+      "title": "Identify potential oppourtunities",
+      "status": "in-progress",
+      "priority": "medium",
+      "points": 13
+    },
+    {
+      "id": "30 MINS",
+      "title": "Data Structures",
+      "status": "todo",
+      "priority": "low",
+      "points": 1
+    },
+    {
+      "id": "90 MINS",
+      "title": "Practice",
+      "status": "todo",
+      "priority": "high",
+      "points": 8
+    },
+    {
+      "id": "40 MINS",
+      "title": "Implement algorithms",
+      "status": "in-progress",
+      "priority": "high",
+      "points": 8
+    },
+    {
+      "id": "15 MINS",
+      "title": "Warmup",
+      "status": "done",
+      "priority": "medium",
+      "points": 13
+    }
+  ]
+}

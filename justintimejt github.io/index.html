@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justin Chow</title> 
+    <script src="https://kit.fontawesome.com/22c135c851.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Justin Chow</a>
+        <nav>
+            <a href="#home" class="active"> Home</a>
+            <a href="#aboutme" class="nav-aboutme">About Me</a>
+            <a href="#skills" class="nav-skills">Skills</a>
+            <a href="#projects" class="nav-projects">Projects</a>
+            <a href="#contact" class="nav-contact">Contact</a>
+        </nav>
+    </header>
+    <section id="home" class="home">
+        <div class="home-img">
+            <img src="images/home.jpg" alt="">
+        </div>
+        <div class="home-content">
+            <h1>Hi! I'm <span>Justin Chow.</span></h1>
+            <p>An ambitious first year computer science student at Western University.</p>
+            <h3 class="typing-text">I'm a <span></span></h3>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/justin-chow-a74a972b5/" target= "_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/justintimejt" target= "_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/justintimejt/" target = "_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="images/Justin_Chow_Resume.pdf" class="btn" target = "_blank">View CV</a>
+        </div>
+    </section>
+
+    <!-- About Me Section-->
+     <section id="aboutme" class="about">
+        <div class="about-img">
+            <img src="images/about.jpg" alt="">
+        </div>
+        <div class="about-content">
+            <h1>About Me</h1>
+            <h2>My Interests!</h2>
+            <p>My programming journey started in 8th grade where my interest grew exponentially in the past 5 years. I am very interested in software and web development! 
+                Some of my hobbies include basketball, sneakers, and of course, programming!</p>
+            <h3>I am currently working on a project using:</h3>
+
+            <div class="tech-container">
+                    <div class="tech-logo-circle">
+                        <img src="/images/javascript.png" alt="">
+                    </div>
+
+                    <div class="tech-logo-circle">
+                        <img src="/images/csslogo.png" alt="">
+                    </div>
+
+                    <div class="tech-logo-circle">
+                        <img src="/images/html-logo.png" alt="">
+                    </div>
+                    
+                    <div class="tech-logo-circle"> 
+                        <img src="/images/nodejs.png" alt="">
+                    </div>
+                    
+                    <div class="tech-logo-circle"> 
+                        <img src="/images/reactjs.png" alt="">
+                    </div>
+
+            </div>
+        </div>
+
+     </section>
+
+      <!-- Skills Section-->
+      <section class="skills" id="skills">
+        <div class="skills-container">
+            <div class="skills-content">
+                <h1>Skills</h1>
+                <p>My Progress So Far!</p>
+                <div class="web-development">
+                    <h2>Web Development</h2>
+                    <h3>HTML</h3>
+                    <div class="progress-bar">
+                        <div class="html-bar"><span></span></div>
+                    </div>
+                    <h3>CSS</h3>
+                    <div class="progress-bar">
+                        <div class="css-bar"><span></span></div>
+                    </div>
+                    <h3>Javascript</h3>
+                    <div class="progress-bar">
+                        <div class="javascript-bar"><span></span></div>
+                    </div>
+                    <h3>React</h3>
+                    <div class="progress-bar">
+                        <div class="react-bar"><span></span></div>
+                    </div>
+                </div>
+                <div class="programming">
+                    <h2>Programming Languages</h2>
+                </div>
+                <h3>Python</h3>
+                <div class="progress-bar">
+                    <div class="python-bar"><span></span></div>
+                </div>
+                <h3>Java</h3>
+                <div class="progress-bar">
+                    <div class="python-bar"><span></span></div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- Projects Section-->
+     <section id="projects" class="projects">
+        <h1>Projects</h1>
+        <h2>My Personal Portfolio!</h2>
+        <div class="projects-container">
+            <div class="card">
+                <img src="images/nbadatabase.png" alt="">
+                <div class="card-content">
+                    <h3>NBA Database</h3>
+                    <p>A user-friendly application that allows users to add, modify, and delete NBA player statistics using pygame interface.</p>
+                    <a href="https://github.com/justintimejt/NBA-Database" target = "_blank" class="btn">Test it Yourself!</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/dragger.png" alt="">
+                <div class="card-content">
+                    <h3>Dragger: React.js</h3>
+                    <p>A simple taks manager application using React.js, Typescript, Vite, and JSON. Allows users to rank tasks basked on priority, modify titles, drag and drop.</p>
+                    <a href="https://github.com/justintimejt/DoToListApp" target = "_blank" class="btn">Coming Soon...</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/comebacklater.png" alt="">
+                <div class="card-content">
+                    <h3>Expenses Tracker</h3>
+                    <p>Using Node.js with Express, and React.js to build a fully responsive user-friendly expense tracker application. Mobile responsive.</p>
+                    <a href="/" class="btn">Coming Soon...</a>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- Contact Me Section-->
+     <section id ="contact" class="contact">
+        <div class="contact-container">
+            <h2>Contact Me</h2>
+            <div class="contact-wrapper">
+                <div class="contact-form">
+                    <h3>Send me a message</h3>
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="46cf37a3-558d-4680-82d9-de5df581ec84">
+                        <div class="form-group">
+                            <input type="text" name= "name" placeholder="Enter Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name= "email" placeholder="Enter Email">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Enter Message"></textarea>
+                        </div>
+                        <button type="submit">Send Message<img src="images/rightarrow.png" alt=""></button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h3>Contact Info</h3>
+                    <h4>Phone Number</h4>
+                    <p><i class="fas fa-phone"></i>+1 647-451-4102</p>
+                    <h4>Email</h4>
+                    <p><i class="fas fa-envelope"></i>justinchowp@gmail.com</p>
+                    <h4>Instagram</h4>
+                    <p><i class="fa-brands fa-instagram"></i>@justintimejt</p>
+                </div>
+            </div>
+        </div>
+     </section>
+    
+     <!-- Footer Section -->
+
+     <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-social-icons">
+                <a href="https://www.linkedin.com/in/justin-chow-a74a972b5/" target= "_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/justintimejt" target= "_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/justintimejt/" target= "_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="/images/Justin_Chow_Resume.pdf" target= "_blank"><i class="fas fa-file"></i></a>
+            </div>
+            <div class="footer__nav">
+                    <a href="#home" >Home</a>
+                    <a href="#aboutme" >About Me</a>
+                    <a href="#skills" >Skills</a>
+                    <a href="#projects" >Projects</a>
+                    <a href="#contact" >Contact Me</a>
+            </div>
+            <div class="footer__bottom">
+                <p>Copyright &copy; 2024; Designed by Justin.</p>
+            </div>
+        </div>
+
+    </footer>
+
+</body> 
+</html>

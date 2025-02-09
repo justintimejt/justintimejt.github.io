@@ -145,12 +145,12 @@ nav a.active{
 @media (max-width: 768px) {
 
     .logo {
-        font-size: 2.5rem;
+        display: none;
     }
     
     nav a {
         font-size: 1.5rem;
-        margin-left: 2rem;
+        margin-left: 1rem;
     }
 }
 
@@ -635,12 +635,13 @@ span{
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    
     .timeline-line {
-        height:63rem;
+        height: auto;
     }
     .experience-item {
-        width: 100%;
-        padding-left: 40px;
+        flex-direction: column;
+        align-items: center;
     }
 
     .experience-item::before {
@@ -649,15 +650,13 @@ span{
     }
 
     .experience-card {
-        width: 100%;
-        max-width: none;
-        float: none !important;
-        margin: 0 !important;
+        width: 90%;
+        max-width: 1000px;
     }
 
     .experience-item.left, 
     .experience-item.right {
-        padding-left: 40px;
+        padding: 0px 40px;
     }
 
     .experience-item::before {

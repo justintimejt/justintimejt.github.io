@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../Personal Website"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "justintimejt github.io",
+		"maven.view": "flat"
+	}
+}

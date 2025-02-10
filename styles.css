@@ -919,12 +919,18 @@ span{
 
 .card-content .btn {
     display: inline-block;
+    border: none;
     padding: 8px 16px;
-    background-color: var(--color-blue-dark);
+    background-color: var(--color-black);
     text-decoration: none;
     margin-top: 16px;
-    font-weight: 400;
+    font-weight: 1000;
     color: var(--color-white);
+    border-radius: 6px;
+    font-family: "Poppins";
+}
+.card-content .btn:hover {
+    background-color: var(--color-blue-dark);
 }
 
 .project-tech {
@@ -935,8 +941,8 @@ span{
 }
 
 .project-tech span {
-    background-color: var(--color-blue-dark); 
-    color: var(--color-white);
+    background-color: var(--color-gray-light); 
+    color: var(--color-gray-dark);
     font-size: 14px;
     font-weight: 500;
     padding: 6px 12px;

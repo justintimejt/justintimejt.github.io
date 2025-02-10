@@ -875,10 +875,13 @@ span{
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 30px;
+    gap: 20px;
 }
 
 .card {
-    width: 325px;
+    flex: 1 1 300px;
+    height: auto;
+    max-width: 400px;
     background-color: #fff;
     border-radius: 8px;
     overflow: hidden;
@@ -894,7 +897,9 @@ span{
 
 .card img {
     width: 100%;
-    height: auto;
+    height: 200px;
+    max-height: 200px;
+    object-fit: cover;
 }
 
 .card-content {
@@ -920,6 +925,53 @@ span{
     margin-top: 16px;
     font-weight: 400;
     color: var(--color-white);
+}
+
+@media (max-width: 1024px) {
+    .card {
+        flex: 1 1 280px;
+    }
+}
+@media (max-width: 768px) {
+    .projects h1 {
+        font-size: 3.5rem;
+    }
+
+    .projects h2 {
+        font-size: 1.5rem;
+    }
+
+    .card {
+        flex: 1 1 90%;
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .projects h1 {
+        font-size: 3rem;
+    }
+
+    .projects h2 {
+        font-size: 1.2rem;
+    }
+
+    .card {
+        flex: 1 1 90%;
+        max-width: 90%;
+    }
+    .card-content h3 {
+        font-size: 22px;
+    }
+
+    .card-content p {
+        font-size: 14px;
+    }
+
+    .card-content .btn {
+        padding: 6px 12px;
+        font-size: 14px;
+    }
 }
 
 

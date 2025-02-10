@@ -927,6 +927,31 @@ span{
     color: var(--color-white);
 }
 
+.project-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.project-tech span {
+    background-color: var(--color-blue-dark); 
+    color: var(--color-white);
+    font-size: 14px;
+    font-weight: 500;
+    padding: 6px 12px;
+    border-radius: 20px;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.project-tech span:hover {
+    background-color: var(--color-blue-light); 
+    transform: scale(1.1);
+}
+
+
 @media (max-width: 1024px) {
     .card {
         flex: 1 1 280px;
